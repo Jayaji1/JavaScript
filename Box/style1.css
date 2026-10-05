@@ -1,0 +1,23 @@
+/* .container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  gap: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  box-sizing: border-box;
+}

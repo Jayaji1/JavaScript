@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Job Application Form</h1>
+
+    <form>
+      <fieldset>
+        <legend>Personal Infromation</legend>
+
+        <label>Name</label>
+        <input type="text" name="name" required />
+        <br /><br />
+
+        <label>Email</label>
+        <input type="email" name="email" required />
+        <br /><br />
+
+        <label>Phone</label>
+        <input type="tel" name="phone" required />
+        <br /><br />
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>Education</legend>
+
+        <label>Qualification</label>
+        <select name="qualification">
+          <option>Select Qualification</option>
+          <option>B.Tech</option>
+          <option>M.Tech</option>
+        </select>
+        <br /><br />
+
+        <label>Graduation Year:</label>
+
+        <select name="year">
+          <option>2026</option>
+          <option>2025</option>
+          <option>2024</option>
+          <option>2023</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Resume</legend>
+        <label>Upload Resume</label>
+        <input type="file" name="resume" />
+      </fieldset>
+
+      <br />
+
+      <input type="submit" value="Apply Now" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
